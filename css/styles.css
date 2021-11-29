@@ -83,6 +83,17 @@ body {
   font-weight: 500;
 }
 
+.page-header {
+  width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /* Hero */
 .hero-title {
   color: var(--white-color);
