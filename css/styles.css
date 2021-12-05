@@ -168,12 +168,37 @@ body {
   color: var(--accent-color);
 }
 
-.section-team .title {
+.feature-list {
+  display: flex;
+}
+
+.feature-list .item + .item {
+  margin-left: 30px;
+}
+
+.section-works {
+  display: flex;
+}
+
+.section-works .item + .item {
+  margin-left: 30px;
+}
+
+.section-team {
+  display: flex;
+}
+
+.section-team .item + .item {
+  margin-left: 30px;
+}
+
+. .section-team .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
 }
+
 .section-team .text {
   font-size: 16px;
   line-height: 1.17;
@@ -181,6 +206,7 @@ body {
 }
 
 .section {
+  padding-top: 94px;
 }
 
 .button {
