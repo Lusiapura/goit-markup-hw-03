@@ -64,7 +64,6 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--border-line);
 }
 
 /*auth-nav*/
@@ -121,6 +120,7 @@ img {
 
 .page-header {
   margin: 0 auto;
+  border-bottom: 1px solid var(--border-line);
 }
 
 .container {
